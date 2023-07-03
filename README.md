@@ -1,16 +1,1 @@
-# ml_tester_flutter
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Animal Classifier app which is able to predict 90 classes of animals, the model is trained using transfer learning in tensorflow. The API is created in python using FastApi and a flutter app is created. User can pick an image from the gallery and the model will predict it and display on the screen.
